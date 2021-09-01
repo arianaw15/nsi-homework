@@ -1,11 +1,11 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 
 @Component({
-  selector: 'app-child-component',
-  templateUrl: './child-component.component.html',
-  styleUrls: ['./child-component.component.css']
+  selector: 'app-child',
+  templateUrl: './child.component.html',
+  styleUrls: ['./child.component.css']
 })
-export class ChildComponentComponent implements OnInit {
+export class ChildComponent implements OnInit {
 
   counter: number = 0;
 
@@ -18,7 +18,7 @@ export class ChildComponentComponent implements OnInit {
 
 countClick(){
     this.counter +=1;
-    this.countEvent.emit(this.counter);                       )
+    this.countEvent.emit(this.counter);
   }
 
 }
