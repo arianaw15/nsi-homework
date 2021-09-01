@@ -16,5 +16,8 @@ export class ParentComponent implements OnInit {
   receiveCount($event) {
     this.counter = $event
   }
+  countClickDestruction(){
+    this.counter = 0
+  }
 
 }

@@ -1,7 +1,7 @@
 .child-button{
-    color: #009688;
+    color: #67697C;
     background: #fff;
-    border: 1px solid #009688;
+    border: 1px solid #67697C;
     font-size: 17px;
     padding: 7px 12px;
     font-weight: normal;
@@ -14,5 +14,6 @@
 }
 .child-button:hover, .child-button:active {
     color:#fff;
-    background:#009688;
+    background:#C6878F;
+    border: 1px solid #fff;
   }

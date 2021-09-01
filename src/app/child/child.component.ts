@@ -16,8 +16,12 @@ export class ChildComponent implements OnInit {
   ngOnInit(): void {
   }
 
-countClick(){
+countClickIncrease(){
     this.counter +=1;
+    this.countEvent.emit(this.counter);
+  }
+countClickDecrease(){
+    this.counter -=1;
     this.countEvent.emit(this.counter);
   }
 

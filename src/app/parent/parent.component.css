@@ -1,10 +1,31 @@
 .container{
     margin: auto;
     width: 60%;
-    border: 5px solid #009688;
+    border: 5px solid #253D5B;
     padding: 10px;
     text-align: center;
 }
 .text{
-    color: #009688;
+    color: #67697C;
+    /* border: 5px solid #67697C; */
 }
+.points{
+    margin: auto;
+    /* border: 5px solid #009688; */
+    padding: 10px;
+    width: 50%;
+    font-size: 20px;
+    color: #C6878F;
+}
+.point-button{
+    color: #fff;
+    background: #C6878F;
+    border: 1px solid #C6878F;
+    margin: 5px;
+}
+
+.point-button:hover, .point-button:active {
+    color: #67697C;
+    background: #fff;
+    border: 1px solid #67697C;
+  }

@@ -1,4 +1,14 @@
 <div class="container">
-<div class="text">The button has been clicked {{ counter }} times</div> 
+<div class="points">You have {{ counter }} points! Click to increase your points and then pick a prize.</div> 
 <app-child (countEvent)="receiveCount($event)"></app-child>
+<div class="text">
+    You can use your points for the following (click to claim):
+    <br>
+    <button class="point-button" (click)="countClickDestruction()">10 points = 1 Reece's Cup</button>
+    <br>
+    <button class="point-button" (click)="countClickDestruction()">25 points = 1 Twisters Burger</button>
+    <br>
+    <button class="point-button" (click)="countClickDestruction()">100 points = 1 Crab Dinner</button>
+    
+</div>
 </div>
